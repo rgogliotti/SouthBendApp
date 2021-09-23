@@ -99,7 +99,7 @@ server <- function(input, output, session) {
 }
 
 ui <- fluidPage(
-  headerPanel("Select a Census Tract"),
+  headerPanel("Select a Census Tract for Demographics"),
   br(),
   column(7,leafletOutput("map", height="500px")),
   column(5,plotOutput("barpop", height="300px"),br(), plotOutput("bargen", height="200px")),
